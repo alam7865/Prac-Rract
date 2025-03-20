@@ -1,8 +1,75 @@
-h1 {
+body {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
   font-family: Arial, Helvetica, sans-serif;
 }
 
-img {
+.header {
+  display: flex;
+  justify-content: space-between;
+  border: 2px solid red;
+  height: 100px;
+}
+.logo img {
+  padding-left: 10px;
   width: 100px;
   height: 100px;
+}
+
+.nav_item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.nav_item ul {
+  list-style-type: none;
+  display: flex;
+  margin-right: 2rem;
+}
+
+.nav_item ul li {
+  padding-right: 10px;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+  font-weight: 545;
+}
+
+.nav_item ul li:hover {
+  color: red;
+}
+
+.Card {
+  margin: 12px;
+  padding: 12px;
+  border: 2px solid red;
+  width: 300px;
+}
+
+.resturent_list {
+  display: flex;
+  flex-wrap: wrap;
+}
+.shimmer_card {
+  /* display: flex;
+  flex-wrap: wrap; */
+  margin: 12px;
+  padding: 12px;
+  /* border: 2px solid red; */
+  width: 300px;
+  height: 250px;
+  background-color: lightgray;
+}
+.Card img {
+  margin-left: 60px;
+  width: 150px;
+  left: 50%;
+}
+
+.BodyBox {
+  display: flex;
+  flex-wrap: wrap;
 }
